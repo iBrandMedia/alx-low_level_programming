@@ -4,7 +4,7 @@
 /**
  * main - this is the main function
  * Return: always 0
- *i/
+ */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
