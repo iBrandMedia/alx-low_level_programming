@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * leet - main function
- *
- * @n: Funtion parameter
- *
- * Return: value of n
+  *leet - main function
+  *
+  * @n: Function parameter
+  *
+  *Return: value of n
  */
+
 char *leet(char *n)
 {
 	int k, r;
@@ -15,15 +16,13 @@ char *leet(char *n)
 
 	for (k = 0; n[k] != '\0'; k++)
 	{
-		for (k = 0; n[k] != '\0'; k++)
-		{
-			for (r = 0; r < 10; r++)
-			{
-				if (n[k] == s1[r])
-				{
-					n[k] = s2[r];
-				}
-			}
-		}
-		return (n);
+	for (r = 0; r < 10; r++)
+	{
+	if (n[k] == s1[r])
+	{
+	n[k] = s2[r];
 	}
+	}
+	}
+	return (n);
+}
